@@ -11,7 +11,7 @@ public class TaxService implements iActorBehaviuor {
         this.name = "Tax audit";
     }
 
-     public String getName() {        
+    public String getName() {
         return name;
     }
 
@@ -27,12 +27,12 @@ public class TaxService implements iActorBehaviuor {
 
     @Override
     public void setMakeOrder(boolean makeOrder) {
-       isMakeOrder = makeOrder;
+        isMakeOrder = makeOrder;
     }
 
     @Override
     public void setTakeOrder(boolean pickUpOrder) {
-       isTakeOrder = pickUpOrder;   
+        isTakeOrder = pickUpOrder;
     }
 
     @Override

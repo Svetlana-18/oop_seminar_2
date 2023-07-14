@@ -14,18 +14,18 @@ public abstract class Actor implements iActorBehaviuor {
     abstract public String getName();
 
     // public boolean isTakeOrder() {
-    //     return isTakeOrder;
+    // return isTakeOrder;
     // }
 
     // public boolean isMakeOrder() {
-    //     return isMakeOrder;
+    // return isMakeOrder;
     // }
 
     // public void setTakeOrder(boolean takeOrder) {
-    //     isTakeOrder = takeOrder;
+    // isTakeOrder = takeOrder;
     // }
 
     // public void setMakeOrder(boolean makeOrder) {
-    //     isMakeOrder = makeOrder;
+    // isMakeOrder = makeOrder;
     // }
 }

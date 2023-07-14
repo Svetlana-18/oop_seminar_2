@@ -1,14 +1,18 @@
 package Classes;
 
+/** Добавляю класс, описывающий акционного клиента */
 
 public class PromotionalClient extends Actor {
-    private String namePromotion;
-    private int id;
-    private int numberParticipants;
+    /**
+     * Включаю поля: название акции, id клиента и количество участников в акции(поле
+     * статическое)
+     */
+    protected String namePromotion;
+    protected int id;
+    protected int numberParticipants;
 
-
-      public PromotionalClient(String name, int id,int numberParticipants,String namePromotion ) {
-        super(name+" - акционный клиент: ");
+    public PromotionalClient(String name, int id, int numberParticipants, String namePromotion) {
+        super(name + " - акционный клиент: ");
         this.id = id;
         this.namePromotion = namePromotion;
         this.numberParticipants = numberParticipants;
@@ -20,23 +24,23 @@ public class PromotionalClient extends Actor {
     }
 
     public boolean isTakeOrder() {
-      return super.isTakeOrder;
+        return super.isTakeOrder;
     }
 
     public boolean isMakeOrder() {
-      return super.isMakeOrder;
+        return super.isMakeOrder;
     }
 
     public void setTakeOrder(boolean makeOder) {
-      super.isMakeOrder = makeOder;
+        super.isMakeOrder = makeOder;
     }
-    
+
     public void setMakeOrder(boolean pikUpOrder) {
-      super.isTakeOrder = pikUpOrder;
+        super.isTakeOrder = pikUpOrder;
     }
 
     public Actor getActor() {
-      return this;
+        return this;
     }
-    
+
 }
