@@ -14,7 +14,7 @@ public class App {
         iActorBehaviuor client2 = new SpecialClient("prezident", 1001);
         iActorBehaviuor p = new PensionerClient("Sergey Nikolay", 1111);
         iActorBehaviuor tax = new TaxService();
-        iActorBehaviuor actcl = new PromotionalClient("Oleg", 1111, 4, "1+1=3");
+        iActorBehaviuor actcl = new PromotionalClient("Oleg", 1111, 4, " 1+1=3 ");
 
         magnit.acceptToMarket(client1);
         magnit.acceptToMarket(client2);

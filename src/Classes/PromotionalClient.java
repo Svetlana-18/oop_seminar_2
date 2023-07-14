@@ -9,10 +9,11 @@ public class PromotionalClient extends Actor {
      */
     protected String namePromotion;
     protected int id;
-    protected int numberParticipants;
+    protected int numberParticipants = 4;
 
     public PromotionalClient(String name, int id, int numberParticipants, String namePromotion) {
-        super(name + " - акционный клиент: ");
+        super(name + " - акционный клиент: " + "название акции" + namePromotion + "количество участников акции: "
+                + numberParticipants);
         this.id = id;
         this.namePromotion = namePromotion;
         this.numberParticipants = numberParticipants;
